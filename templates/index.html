@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Marks predction</title>
+  <style>
+    h1{
+      text-align: center;
+      color:white;
+    }
+
+    h2{ 
+      text-align: center;
+      color:white;
+    }
+
+    .btn{
+
+    border-radius: 5px;
+    width: 81%;
+    margin: auto 14px;
+    padding: 5px;
+    }
+
+
+    .cont{
+      width: 177px;
+      margin: auto;
+      } 
+    body{
+      background-color: black;
+    }
+    
+  </style>
+</head>
+<body>
+  <h1 >Well come to our percent predction page</h1> 
+  <form action="{{url_for('predict')}}" method="post">
+    <div class="cont">
+    <input type="text" name="study_hours" required placeholder="study_hours">
+  </div>
+   <br>
+  <div class="cont">
+    <button type="submit" class="btn">predict</button>
+  </div>
+  </form>
+
+  <br> 
+  <div class="cont">  
+
+  <h2>  {{predition_text}} </h2> 
+  </div>
+</body>
+</html>
+
