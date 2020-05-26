@@ -6,6 +6,6 @@ pandas>=0.24.1
 PyAudio==0.2.11
 pyttsx3==2.71
 scipy>=1.4.1
-scikit-learn>= 0.22.2.post1
+scikit-learn>= 0.22.2
 gunicorn==19.9.0
 MarkupSafe==1.1.1
