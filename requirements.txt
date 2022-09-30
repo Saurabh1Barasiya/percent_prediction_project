@@ -1,6 +1,6 @@
 Flask==1.1.1
 Jinja2 ==2.11.1
-joblib==0.14.1
+joblib==1.2.0
 numpy>=1.16.1
 pandas>=0.24.1
 pyttsx3==2.71
